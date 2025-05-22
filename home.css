@@ -1,0 +1,169 @@
+body{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+   margin-bottom: 100px;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+}
+p{
+    color: hsl(201, 11%, 66%);
+}
+h1{
+    text-align: center;
+}
+.first{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: .7em;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    box-shadow: 2px 2px 5px grey;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    margin-left: 15px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin: 70px 20px;
+}
+.three{
+    flex-direction: row;
+}
+.icon{
+    margin: 0 auto;
+}
+.icon img{
+justify-content: space-between;
+padding: 10px;
+margin: 0 3%; 
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    margin: 0 8%;
+    gap: 100px;
+}
+.Keep{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.Supercharge{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.access{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.device{
+    margin: 0 25%;
+}
+.last{
+    position: relative;
+    background-color: hsl(198, 32%, 92%);
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.last img{
+    width: 30px;
+    height: 30px;
+    gap: 40px;
+    padding: 15px;
+}
+.social{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.image{
+    top: 35%;
+    position: absolute;
+    width: 400px;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); 
+    gap: 10px;
+    margin: 90px;
+    margin-left: 100px;
+    list-style: none;
+    padding: 0;
+}
+.btn{
+    margin: auto;
+    width: max-content;
+    text-align: center;
+}
+.image img{
+    width: 60px;
+    height: 50px;
+
+}
+@media screen and (max-width: 575px) {
+    .logo{
+         margin-left: 25%;
+    }
+     
+    button{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }   
+    .two{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: center;
+
+    }
+    .four{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .icon{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+.image img{
+        top: 0;
+        position: none;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}  
+    .social{
+        position: none;
+        margin: auto;
+        width: max-content;
+    }
+ 
+}
